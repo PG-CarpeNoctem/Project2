@@ -20,6 +20,13 @@ body {
 .sidebar h2 {
   color: #00ffff;
 }
+.linker {
+  color: #00ffff;
+  text-decoration: none;
+}
+.linker:hover {
+  color: #00bbff;
+}
 .nav-links {
   list-style: none;
   padding: 0;
