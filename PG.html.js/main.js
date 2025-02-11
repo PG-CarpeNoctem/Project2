@@ -32,6 +32,16 @@ siteArr = [
     bugs: "Expenses,Add Expense,Dark Mode",
   },
   {
+    name: "PG.Web Basics",
+    date: "09/02/2024",
+    rating: 3,
+    level: 2,
+    status: "Completed",
+    bootstrapVersion: "None",
+    fontAwesomeVersion: "None",
+    bugs: "Everything Working Fine",
+  },
+  {
     name: "PG.Chess",
     date: "30/06/2024",
     rating: 4,
@@ -311,8 +321,10 @@ function goToSite(index) {
   } else if (index === 2) {
     window.location.href = "../employeeSystem.html.js/p2.html";
   } else if (index === 3) {
-    window.location.href = "../chess.html.js/p3.html#";
+    window.location.href = "../PG.Web Basics/index.html";
   } else if (index === 4) {
+    window.location.href = "../chess.html.js/p3.html#";
+  } else if (index === 5) {
     window.location.href = "../PG.html.js/main.html#";
   }
 }
